@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    padding: 0;*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: wheat;
+    transition: 0.8s all;
+  }
+  
+  h1 {
+    margin-bottom: 1.5;
+    color: white;
+    font-weight:normal;
+  }
+  
+  .container {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  
+  input{
+    padding: 25px;
+    color:rgb(87, 87, 87);
+    font-size: lem;
+    cursor: pointer;
+    width: 70px;
+    background-color: skyblue;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    margin: 0.2m;
+  }
+  .row{
+    margin-bottom: 4px;
+  }
+  
+  input[type="button"] {
+    color: white;
+  }
+  
+  input[type="text"] {
+    background-color: rgb(255, 255, 255);
+    width: 222.5px;
+  }
+  
+  input[type="button"]:hover {
+    background-color: rgb(125, 242, 0);
+    width: 15px;
+    color: white;
+  }
+  
+  #clear-button {
+    color: white;
+    background-color: rgb(255, 25, 255)
+  }
+  
+    margin: 0;
+  }
+  
+  .wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: wheat;
+    transition: 0.8s all;
+  }
+  
+  h1 {
+    margin-bottom: 1.5;
+    color: white;
+    font-weight:normal;
+  }
+  
+  .container {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  
+  input{
+    padding: 25px;
+    color:rgb(87, 87, 87);
+    font-size: lem;
+    cursor: pointer;
+    width: 70px;
+    background-color: skyblue;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    margin: 0.2m;
+  }
+  .row{
+    margin-bottom: 4px;
+  }
+  
+  input[type="button"] {
+    color: white;
+  }
+  
+  input[type="text"] {
+    background-color: rgb(255, 255, 255);
+    width: 222.5px;
+  }
+  
+  input[type="button"]:hover {
+    background-color: rgb(125, 242, 0);
+    width: 15px;
+    color: white;
+  }
+  
+  #clear-button {
+    color: white;
+    background-color: rgb(255, 25, 255)
+  }
+  
+  
+  
+  
