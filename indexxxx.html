@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="Stylesheet" href="Style.css"/>
+</head>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header-container">
+             </div>
+                <div class="row">
+                    <input type="text" name="result" id="result" placeholders="result" readonly/>
+                    <input type="button" value="AC" onclick="result.value=''" id="clear-button"/>                    
+                </div>
+                <div class="row">
+                    <input type="button" value="7" onclick="update(7)"/>
+                    <input type="button" value="8" onclick="update(8)"/>
+                    <input type="button" value="9" onclick="update(9)"/>
+                    <input type="button" value="x" onclick="update('*')"/>
+                 </div>
+                 <div class="row">
+                     <input type="button" value="4" onclick="update(4)"/>
+                     <input type="button" value="5" onclick="update(5)"/>
+                     <input type="button" value="6" onclick="update(6)"/>
+                     <input type="button" value="-" onclick="update('-')"/>
+                 </div>
+                 <div class="row">
+                     <input type="button" value="1" onclick="update(1)"/>
+                     <input type="button" value="2" onclick="update(2)"/>
+                     <input type="button" value="3" onclick="update(3)"/>
+                     <input type="button" value="+" onclick="update('+')"/>
+                 </div>
+                 <div class="row">
+                     <input type="button" value="/" onclick="update('/')"/>
+                     <input type="button" value="0" onclick="update(0)"/>
+                     <input type="button" value="." onclick="update('.')"/>
+                     <input type="button" value="=" onclick="update(result.value)"/>
+                  </div>
+                 <div class="row">
+                     <input type="button" value="j" onclick="update('j')"/>
+                     <input type="button" value="g" onclick="update('g')"/>
+                     <input type="button" value="b" onclick="update('b')"/> 
+                     <input type="button" value="m" onclick="update('m')"/>
+                  </div>
+                 <div class="row">
+                     <input type="button" value="s" onclick="update('s')"/>
+                     <input type="button" value="o" onclick="update('o')"/>
+                     <input type="button" value="G" onclick="update('G')"/>       
+                  
+
+                 </div>
+             </div>
+        </div>
+    </div>  
+    <script src="script.js"></script>             
+</body>
+</html>
+
+
+
+
+
